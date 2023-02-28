@@ -1,0 +1,340 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 23, 2023, 6:14:41 PM
+    Author     : Lensa.A.G
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Raleway;
+}
+body,html{
+    height:100%;
+    font-weight: 500;
+}
+a{
+    margin:0;
+    transition:all .4s;
+    -webkit-transition:all .4s;
+    -o-transition:all .4s;
+    -moz-transition:all .4s
+}
+a:focus{
+    outline:none!important
+}
+a:hover{
+    text-decoration:none
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0
+}
+p{
+    margin:0
+}
+ul,li{
+    margin:0;
+    list-style-type:none
+}
+input{
+    display:block;
+    outline:none;
+    border:none!important
+}
+textarea{
+    display:block;
+    outline:none
+}
+textarea:focus,input:focus{
+    border-color:transparent!important
+}
+button{
+    outline:none!important;
+    border:none;
+    background:0 0
+}
+button:hover{
+    cursor:pointer
+}
+iframe{
+    border:none!important
+}
+.limiter{
+    width:100%;
+    margin:0 auto
+}
+.container-table100{
+    width:100%;
+    min-height:100vh;
+    background: #f8f8f8;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    padding: 0px 30px 33px 30px;
+    flex-direction: column;
+}
+.nav {
+    width: 100%;
+    margin: 0px 0px 33px 0px;
+}
+.wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+.zmdi-menu:before {
+    font-size: 25px;
+}
+.wrap-table100{
+    width:1170px;
+    box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+}
+.table100 {
+    width: 100%;
+}
+table{
+    border-spacing:1px;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    width:100%;
+    margin:0 auto;
+    position:relative
+}
+table *{
+    position:relative
+}
+table td,table th{
+    padding-left:8px
+}
+table thead tr{
+    height:60px;
+    background:#36304a
+}
+table tbody tr{
+    height:50px
+}
+table tbody tr:last-child{
+    border:0
+}
+table td,table th{
+    text-align:left
+}
+table td.l,table th.l{
+    text-align:right
+}
+table td.c,table th.c{
+    text-align:center
+}
+table td.r,table th.r{
+    text-align:center
+}
+.table100-head th{
+    font-size:18px;
+    color:#fff;
+    line-height:1.2;
+    font-weight:unset
+}
+tbody tr:nth-child(even){
+    background-color:#f5f5f5
+}
+tbody tr{
+    font-size:15px;
+    color:gray;
+    line-height:1.2;
+    font-weight:unset
+}
+tbody tr:hover{
+    color:#555;
+    background-color:#f5f5f5;
+    cursor:pointer
+}
+.column0 {
+    padding-right: 10px;
+}
+.column1{
+    width: 100px;
+    padding-left: 30px;
+}
+.column2{
+    /*width:240px*/
+}
+.column3{
+    /*width:220px*/
+}
+.column4{
+    /*width:170px;*/
+}
+.column5{
+    /*width:170px;*/
+}
+.column6{
+    /*width:100px;*/
+}
+.column7{
+    /*width:100px;*/
+}
+.column8{
+    padding-right: 25px;
+    text-align: center;
+}
+.nav-links {
+    position: relative;
+    z-index: 1;
+}
+#displayer {
+    display: none;
+}
+.nav-container {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px 0px #808080;
+    top: calc(100% + 20px);
+    width: max-content;
+    height: 0px;
+    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-links #displayer:checked + .nav-container {
+    height: 293px;
+}
+
+.nav-links label i {
+    padding: 0px 5px;
+    color: gray;
+    display: flex;
+}
+
+.nav-container ul {
+    padding: 10px;
+}
+
+.nav-container ul li {
+    padding: 10px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.eski {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    background: white;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 5px;
+}
+
+#search {
+    width: 100px;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.search-container button {
+    /* border: 1px solid black; */
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.nav-button {
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+}
+
+.zmdi-close-circle:hover {
+    color: crimson;
+}
+
+@media screen and (max-width:992px){
+    table{
+        display:block;
+    }
+    table>*,table tr,table td,table th{
+        display:block;
+    }
+    table thead{
+        display:none;
+    }
+    table tbody tr{
+        height:auto;
+        padding:37px 0;
+    }
+    table tbody tr td{
+        padding-left:40%!important;
+        margin-bottom:24px;
+    }
+    table tbody tr td:last-child{
+        margin-bottom:0;
+    }
+    table tbody tr td:before{
+        font-size:14px;
+        color:#999;
+        line-height:1.2;
+        font-weight:unset;
+        position:absolute;
+        width:40%;
+        left:30px;
+        top:0;
+    }
+    table tbody tr td:nth-child(1):before{
+        content:"Date"
+    }
+    table tbody tr td:nth-child(2):before{
+        content:"Order ID"
+    }
+    table tbody tr td:nth-child(3):before{
+        content:"Name"
+    }
+    table tbody tr td:nth-child(4):before{
+        content:"Price"
+    }
+    table tbody tr td:nth-child(5):before{
+        content:"Quantity"
+    }
+    table tbody tr td:nth-child(6):before{
+        content:"Total"
+    }
+    .column4,.column5,.column6{
+        text-align:left
+    }
+    .column4,.column5,.column6,.column1,.column2,.column3{
+        width:100%
+    }
+    tbody tr{
+        font-size:14px
+    }
+}
+@media(max-width:576px){
+    .container-table100{
+        padding-left:15px;
+        padding-right:15px
+    }
+}

@@ -1,0 +1,54 @@
+.up {
+    margin-bottom: 10px;    
+}
+
+.profile-card-body {
+    margin-top: 10px;
+}
+
+.profile-card-body div {
+    padding: 10px;
+}
+
+.pay {
+    width: 100px;
+    margin-right: 50px
+}
+
+.profile-wrapper {
+    margin: 30px auto auto;
+}
+
+.value {
+    margin-bottom: 15px;
+}
+
+.nav-links #displayer:checked + .nav-container {
+    height: 293px;
+}
+
+.value div:nth-child(2), .value div:nth-child(3), .value div:nth-child(4), .value div:nth-child(5){
+    opacity: 1;
+}
+
+.up input {
+    border-bottom: 2px solid black !important;
+    padding: 10px 0px 5px 0px;
+    font-size: large;
+}
+
+.up label {
+    padding-right: 30px;
+    font-size: smaller;
+}
+
+.updated {
+    color: #6dabe4;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.pay-container {
+    justify-content: space-between;
+    align-items: center;
+}

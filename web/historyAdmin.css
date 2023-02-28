@@ -1,0 +1,3 @@
+.nav-links #displayer:checked + .nav-container {
+    height: 293px;
+}

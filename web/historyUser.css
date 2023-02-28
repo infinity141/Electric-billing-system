@@ -1,0 +1,7 @@
+.nav-links #displayer:checked + .nav-container {
+    height: 176px;
+}
+
+.column1 {
+    width: 100px;
+}
