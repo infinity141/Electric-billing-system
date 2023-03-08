@@ -30,7 +30,7 @@
                             <li><button type="submit" class="nav-button">Profile</button></li>
                         </form>
                         <form action="viewBill" method="post">
-                            <li><button type="submit" class="nav-button">Make payment</button></li>
+                            <li><button type="submit" class="nav-button">View bill</button></li>
                         </form>
                         <form action="paymentHistoryUser" method="post">
                             <li><button type="submit" class="nav-button">Payment history</button></li>

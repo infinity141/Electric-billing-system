@@ -2,18 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/src/java/com/servlet/ViewUser.java</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/web/updatecost.jsp</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/src/java/com/servlet/register.java</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/src/java/com/servlet/AdminProfile.java</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/src/java/com/servlet/Login.java</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/src/java/com/servlet/BillReport.java</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/web/navBar.jsp</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/web/navBarUser.jsp</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/web/index.jsp</file>
-            <file>file:/C:/Users/Lenvo/Documents/NetBeansProjects/ElectricBilling/src/java/com/servlet/PaymentHistoryUser.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

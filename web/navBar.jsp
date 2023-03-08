@@ -30,10 +30,10 @@
                             <li><button type="submit" class="nav-button">Profile</button></li>
                         </form>
                         <form action="register.jsp" method="post">
-                            <li><button type="submit" class="nav-button">Add customer</button></li>
+                            <li><button type="submit" class="nav-button">Add user</button></li>
                         </form>
                         <form action="viewUser" method="post">
-                            <li><button type="submit" class="nav-button">View customer</button></li>
+                            <li><button type="submit" class="nav-button">View user</button></li>
                         </form>
                         <form action="billReport" method="post">
                             <li><button type="submit" class="nav-button">Bill report</button></li>
